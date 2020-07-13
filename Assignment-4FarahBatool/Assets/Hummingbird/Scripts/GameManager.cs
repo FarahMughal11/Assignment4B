@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour
         {
             // In the Gameover state, button click should go to the main menu
             MainMenu();
+
         }
         else if (State == GameState.MainMenu)
         {
